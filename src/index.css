@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.block {
+  display: block !important
+}
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  box-sizing: content-box;  
+}
+
+.flex {
+  display: flex !important;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-1_5 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 2rem;
+
+}
+
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  background: white;
+  z-index: 1000;
+}
+
+.loader > * {
+  padding: 20% 45%;
+  z-index: 1000;
+}
