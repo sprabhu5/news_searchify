@@ -1,0 +1,31 @@
+.navbar {
+    height: 4rem;
+    padding: 0 15rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+
+.navbard-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-common {
+    margin: auto 0;
+}
+
+.navbar-menu {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-menu:hover {
+    color: #ff742a;
+    border-bottom: 2px solid #ff742a;
+}
+
+.navbar-menu-active {
+    color: #ff742a;
+    border-bottom: 2px solid #ff742a;   
+}

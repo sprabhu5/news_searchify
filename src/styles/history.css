@@ -1,0 +1,24 @@
+.histroy-container {
+    width:50%;
+    margin: auto;    
+}
+
+.histoyr-card {
+    padding: 20px;  
+}
+
+.history-title {
+    border-bottom: 1px solid #f3f3f3;
+    color: gray;
+    font-size: 14px;
+}
+
+.history-type {
+    background: antiquewhite;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.history-card-items {
+    padding: 1.5rem 0;
+}
